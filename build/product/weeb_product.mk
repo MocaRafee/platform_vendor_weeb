@@ -103,6 +103,5 @@ PRODUCT_COPY_FILES += \
 PRODUCT_LOCALES := en_US
 
 # Gapps
-ifeq ($(WITH_GMS),true)
-$(call inherit-product, vendor/gapps/common/common-vendor.mk)
-endif
+$(call inherit-product-if-exists, vendor/google/gms/config.mk)
+$(call inherit-product-if-exists, vendor/google/pixel/config.mk)
