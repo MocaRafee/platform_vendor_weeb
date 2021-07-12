@@ -2,6 +2,6 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <!-- Weeb version -->
-    <string name="weeb_version_summary">1.0 | Reborn</string>
+    <string name="weeb_version_summary">0.1 | Beta</string>
 
 </resources>
